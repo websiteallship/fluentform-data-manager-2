@@ -1,0 +1,89 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 1000;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.per-page-options {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.per-page-options label {
+    margin-right: 10px;
+}
+
+.pagination {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.pagination a, .pagination span {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: #0073aa;
+}
+
+.pagination a:hover {
+    background: #f1f1f1;
+}
+
+.pagination .current {
+    background: #0073aa;
+    color: white;
+    border-color: #0073aa;
+}
+
+.filter-search-options {
+    margin-bottom: 20px;
+}
+
+.search-box {
+    margin-bottom: 10px;
+}
+
+.search-box label {
+    margin-right: 10px;
+}
+
+.search-box input {
+    padding: 5px;
+    width: 200px;
+}
+
+.filter-options {
+    margin-bottom: 10px;
+}
+
+.filter-options label {
+    margin-right: 10px;
+}
+
+.filter-options select, .filter-options input {
+    padding: 5px;
+    margin-right: 20px;
+}
